@@ -1,0 +1,214 @@
+body{
+  /* overflow: hidden; Hide scrollbars*/
+}
+
+.navbar{
+	padding-left: 50px;
+	background: #85365d;
+}
+.navbar .navbar-brand{
+	font-size: 28px;
+	font-weight: bold;
+  
+}
+ 
+.navbar-nav .nav-item .nav-link{
+  color: white;
+}
+
+.first-sec {
+  /* The image used */
+  background-image: url(pic/back1.jpg);
+  /*background-color: #c0cbed;*/
+
+  /* Set a specific height */
+  min-height: 660px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ml2 {
+  font-weight: bolder;
+  font-size: 5vw;
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml3 {
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 0px;
+  text-align: center;
+  color: white;
+}
+
+.ml3 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+ 
+ .sec-second {
+  /* The image used */
+  /*background-image: url(pic/back1.jpg);*/
+  /*background-color: #c0cbed;*/
+
+  /* Set a specific height */
+  min-height: 660px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img img {
+  height: 180px;
+  margin-top: 50px;
+  margin-left: 135px;
+}
+
+.title{
+  margin-left: 125px;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.titletwo{
+  margin-left: 135px;
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+a:hover{
+  color: #85365d;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+.mission{
+  /* The image used */
+  background-color: #545151;
+  /* Set a specific height */
+  min-height: 360px; 
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+.row {
+  margin: 0 5px;
+  margin-bottom: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+}
+
+.fa {font-size:50px;}
+
+
+.sec6 {
+  /* The image used */
+  background: black;
+
+  /* Set a specific height */
+  min-height: 30vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+ 
+ .foo{
+   color: orange;
+   margin-left: 180px;
+   font-size: 35px;
+    
+  padding-top: 50px;
+ }
+
+ 
+.wh{
+  margin-top: 50px;
+  margin-left: 200px;
+  color: orange;
+  font-size: 35px;
+}
+
+.foot {
+  /* The image used */
+  background: black;
+
+  /* Set a specific height */
+  min-height: 10vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+
+@media screen and (min-width: 850px) {
+  .ml2 {
+    font-size: 60px;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .ml2 {
+    font-size: 30px;
+  }
+
+  .ml3{
+    font-size: 20px;
+  }
+}
